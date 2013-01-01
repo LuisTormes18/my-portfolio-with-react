@@ -47,7 +47,7 @@ export const projects = [
   {
     title: "Contact Book",
     image: contactBook,
-    tags: [reactIcon, sassIcon, bootstrapIcon, expressIcon],
+    tags: [reactIcon, sassIcon, bootstrapIcon, nodeIcon],
     repository: "https://github.com/LuisTormes18/contactBook-reaact-app",
     source: "https://lt-contactbook.netlify.app",
   },
