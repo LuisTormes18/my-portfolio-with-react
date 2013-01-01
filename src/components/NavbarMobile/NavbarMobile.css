@@ -13,7 +13,7 @@
 	background-color: #fff;
 	z-index: 50000;
 
-	top: 90%;
+	top: 85%;
 
 	right: 10%;
 
@@ -35,8 +35,13 @@
 
 
 }
+.navbarMobile nav .link{
+display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 
-.hidden{
-	display: none;
-	visibility: hidden;
+.text_nav_item{
+	font-size: .7em;
 }

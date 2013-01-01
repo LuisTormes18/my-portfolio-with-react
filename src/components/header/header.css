@@ -11,12 +11,12 @@
 
   color: white;
 }
-/*@media( max-width: 500px){
+@media( max-width: 500px){
   .header{
     display: none;
     visibility: hidden;
   }
-}*/
+}
 #logo {
   position: relative;
   width: 135px;

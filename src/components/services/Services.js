@@ -7,7 +7,7 @@ import "./services.css";
 
 function Services() {
   return (
-    <session id="session-services">
+    <section id="session-services">
       <div className="header-session">
         <h2>Services</h2>
       </div>
@@ -28,14 +28,9 @@ function Services() {
           description=" Creation of high-performance sites to attract and retain users."
         />
       </div>
-    </session>
+    </section>
   );
 }
 
 export default Services;
 
-//  <Service
-//     icon="fal fa-location"
-//     title="Seo"
-//     description="Optimization of your website to appear in the main search engines, and have a greater presence on the web for your clients"
-// />
