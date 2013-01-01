@@ -24,7 +24,7 @@ function About() {
                         I am a Bachelor of Computer Science student at the 
                         Universidad de Oriente (VE), I am passionate
                         about the world of programming and web development.
-                        <br />I have knowledge in various technologies of the
+                        I have knowledge in various technologies of the
                         Software development industry, I also have various
                         personal skills such as: <br />
                         good communication, willingness to learn, ability to

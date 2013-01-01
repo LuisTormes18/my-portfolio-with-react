@@ -42,9 +42,10 @@
 .about-description {
     display: flex;
     align-items: center;
-    width: 600px;
-    max-width: 90%;
+    width: 550px;
 }
+
+
 .about-img div img {
     height: 100%;
     width: 100%;
@@ -75,6 +76,13 @@
     color: white;
 }
 
-/*hr{
-    background-color: var(--colorCeleste);
-}*/
+@media (max-width: 900px) {
+.about-description #who{
+    text-align: center;
+    max-width: 90%;
+
+}
+    .btn {
+        text-align: center;
+    }
+}
