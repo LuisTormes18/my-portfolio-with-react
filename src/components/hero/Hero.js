@@ -12,7 +12,7 @@ function Hero() {
 
       <div className="hero__text">
         <h1 translate="no">Hi, I'm Luis Tormes</h1>
-        <p translate="no">Web Developer.</p>
+        <p translate="no">Frontend Developer</p>
         <NavbarIcons />
       </div>
     </div>
