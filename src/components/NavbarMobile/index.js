@@ -1,7 +1,6 @@
-// import { useState } from "react";
 import { Link } from "react-scroll";
-import { FaHome, FaFolder } from "react-icons/fa";
-import { FcAbout, FcServices, FcFolder } from "react-icons/fc";
+import { MdHome, MdPermIdentity, MdWork, MdList, MdViewQuilt  } from "react-icons/md";
+
 import "./NavbarMobile.css";
 
 const NavbarMobile = () => {
@@ -22,7 +21,7 @@ const NavbarMobile = () => {
 					smooth={true}
 					duration={1100}
 				>
-					<FaHome size={iconSize} />
+					<MdHome size={iconSize} />
 					<Text text="Home" />
 				</Link>
 				<Link
@@ -31,7 +30,7 @@ const NavbarMobile = () => {
 					smooth={true}
 					duration={1100}
 				>
-					<FcAbout size={iconSize} />
+					<MdPermIdentity size={iconSize} />
 					<Text text="About" />
 
 				</Link>
@@ -41,7 +40,7 @@ const NavbarMobile = () => {
 					smooth={true}
 					duration={1100}
 				>
-					<FcServices size={iconSize} />
+					<MdViewQuilt size={iconSize} />
 					<Text text="Services" />
 				</Link>
 				<Link
@@ -50,7 +49,7 @@ const NavbarMobile = () => {
 					smooth={true}
 					duration={1100}
 				>
-					<FcFolder size={iconSize} />
+					<MdWork size={iconSize} />
 					<Text text="Portfolio" />
 				</Link>
 				<Link
@@ -59,7 +58,7 @@ const NavbarMobile = () => {
 					smooth={true}
 					duration={1100}
 				>
-					<FaFolder size={iconSize} />
+					<MdList size={iconSize} />
 					<Text text="Skills" />
 				</Link>
 			</nav>
