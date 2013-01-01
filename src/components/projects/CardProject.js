@@ -10,12 +10,13 @@ function CardProject({ title, image, tags, repository, source }) {
                 <img src={`${image}`} alt={title} />
             </div>
 
-            <div className="card-footer">
-                <div className="card-title">
-                    <h2>{title}</h2>
+            <div className="card-body">
+
+                <div className="card-header">
+                    <h2 className="card-title">{title}</h2>
+                    <div className="card-tags">{tags}</div>
                 </div>
 
-                <div className="card-tags">{tags}</div>
                 <div className="sources">
                     <CardBtn url={repository} text="repository" />
                     <CardBtn url={source} text="demo" />

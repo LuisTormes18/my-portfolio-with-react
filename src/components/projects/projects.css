@@ -11,7 +11,7 @@
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
-    grid-template-rows: 620px;
+    grid-template-rows: 600px;
     gap: 40px;
     width: 100%;
     justify-content: center;
@@ -23,7 +23,8 @@
     box-shadow: var(--box-shadow);
     max-width: 350px;
     min-width: 305px;
-    max-height: 620px;
+    height: 600px;
+    max-height: 600px;
     text-align: left;
     background-color: white;
 }
@@ -49,16 +50,30 @@
         min-width: 100%;
     }
 }
-.card-footer {
+.card-body{
     border-top: 1px solid #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-header{
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card-title {
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+
 }
 .card-tags {
-    height: 30px;
     display: flex;
     align-items: center;
-    column-gap: 25px;
-    padding: 10px;
-    margin: 10px;
+    column-gap: 15px;
 }
 
 .card-btn {
@@ -77,12 +92,7 @@
 .card-btn a:hover {
     text-decoration: underline;
 }
-.card-title {
-    margin: 10px;
-    padding: 10px;
-    color: black;
-    height: 50px;
-}
+
 
 .card-img {
     height: 450px;
@@ -101,4 +111,5 @@
     padding-top: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }

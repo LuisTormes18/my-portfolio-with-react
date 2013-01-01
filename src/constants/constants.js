@@ -20,7 +20,7 @@ import {
 
 import { SiNextdotjs, SiExpress } from "react-icons/si";
 
-const size = 35;
+const size = 30;
 
 const htmlIcon = <DiHtml5 size={size} color="orange" />;
 const cssIcon = <DiCss3 size={size} color="#00f9" />;
@@ -32,8 +32,8 @@ const nodeIcon = <DiNodejsSmall size={size} color="green" />;
 const mongoIcon = <DiMongodb size={size} color="#40BD44" />;
 const mysqlIcon = <DiMysql size={size} />;
 
-const nextIcon = <SiNextdotjs size={30} />;
-const expressIcon = <SiExpress size={30} />;
+const nextIcon = <SiNextdotjs size={25} />;
+const expressIcon = <SiExpress size={25} />;
 
 export const projects = [
   {
@@ -44,13 +44,13 @@ export const projects = [
     source: "https://ltnews.netlify.app",
   },
 
-  {
-    title: "Contact Book",
-    image: contactBook,
-    tags: [reactIcon, sassIcon, bootstrapIcon, nodeIcon],
-    repository: "https://github.com/LuisTormes18/contactBook-reaact-app",
-    source: "https://lt-contactbook.netlify.app",
-  },
+  // {
+  //   title: "Contact Book",
+  //   image: contactBook,
+  //   tags: [reactIcon, sassIcon, bootstrapIcon, nodeIcon],
+  //   repository: "https://github.com/LuisTormes18/contactBook-reaact-app",
+  //   source: "https://lt-contactbook.netlify.app",
+  // },
   {
     title: "Drink Finder",
     image: drinkfinder,
@@ -59,7 +59,7 @@ export const projects = [
     source: "https://lt-drinkfinder.netlify.app",
   },
   {
-    title: "Sunnyside Frontend-Mentor challenge",
+    title: "Sunnyside ",
     image: sunnyside,
     tags: [reactIcon, cssIcon],
     repository:
@@ -75,14 +75,14 @@ export const projects = [
     source: "https://lt-cryptocurrency-price.netlify.app",
   },
   {
-    title: "Fylo Frontend-Mentor Challenge",
+    title: "Fylo Landing Page",
     image: fylo,
     tags: [htmlIcon, sassIcon],
     repository: "https://github.com/LuisTormes18/landing-fylo-dark-theme",
     source: "https://lt-fylo.netlify.app",
   },
   {
-    title: "Loopstudios Frontend-Mentor Challenge",
+    title: "Loopstudios ",
     image: loopstudios,
     tags: [htmlIcon, cssIcon, jsIcon],
     repository:

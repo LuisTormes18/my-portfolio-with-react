@@ -1,7 +1,8 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
 
-import logo from "./../../assets/img/logo.png";
+// import logo from "./../../assets/img/logo.png";
+import "./logo.css";
 
 export default function Logo() {
 	return (
@@ -12,7 +13,8 @@ export default function Logo() {
 				scroll.scrollToTop();
 			}}
 		>
-			<img src={logo} alt="logo" />
+			
+			<h1>Luis<small>Tormes</small></h1>
 		</div>
 	);
 }

@@ -17,18 +17,6 @@
     visibility: hidden;
   }
 }
-#logo {
-  position: relative;
-  width: 135px;
-  min-width: 135px;
-  height: 100%;
-  z-index: 12000;
-}
-#logo img {
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-}
 #menu {
   display: flex;
   align-items: center;

@@ -15,15 +15,16 @@ const NavbarMobile = () => {
 	}
 
 
-	 window.onscroll = () => {
-    let scrollPosition = window.pageYOffset;
+	 // window.onscroll = () => {
 
-    if (scrollPosition > 700) {
-      setVisibility("hidden");
-    } else {
-      setVisibility("visible");
-    }
-  };
+  //   let scrollPosition = window.pageYOffset;
+
+  //   if (scrollPosition > 700) {
+  //     setVisibility("hidden");
+  //   } else {
+  //     setVisibility("visible");
+  //   }
+  // };
 
 
 	return (

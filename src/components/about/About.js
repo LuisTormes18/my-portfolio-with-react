@@ -1,6 +1,6 @@
 import React from "react";
 
-import Myimg from "./../../assets/img/yo.jpg";
+import MyImg from "./../../assets/img/yo.jpg";
 import cv from "./../../assets/cv/luis_tormes_cv_en.pdf";
 
 import './about.css';
@@ -10,7 +10,7 @@ function About() {
             <div className="about-img">
                 <div>
                     <img
-                        src={Myimg}
+                        src={MyImg}
                         alt="luis tormes"
                     />
                 </div>
