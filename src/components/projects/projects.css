@@ -27,9 +27,11 @@
     text-align: left;
     background-color: white;
 }
-/*.card:hover {
-    box-shadow: var(--box-shadow-hover);
-}*/
+@media (max-width: 720px) {
+  #session-projects  {
+    padding: 40px 10%;
+  }
+}
 
 @media (max-width: 815px) {
     .cards {

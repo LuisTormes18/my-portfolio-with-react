@@ -1,9 +1,11 @@
+import { useState } from "react";
 import { Link } from "react-scroll";
 import { MdHome, MdPermIdentity, MdWork, MdList, MdViewQuilt  } from "react-icons/md";
 
 import "./NavbarMobile.css";
 
 const NavbarMobile = () => {
+  const [visibility, setVisibility] = useState("visible");
 
 	const iconSize = 30;
 	// const iconColor = "";
@@ -12,8 +14,20 @@ const NavbarMobile = () => {
 		return <p className="text_nav_item">{text}</p>
 	}
 
+
+	 window.onscroll = () => {
+    let scrollPosition = window.pageYOffset;
+
+    if (scrollPosition > 700) {
+      setVisibility("hidden");
+    } else {
+      setVisibility("visible");
+    }
+  };
+
+
 	return (
-		<div className="navbarMobile">
+		<div className={`navbarMobile ${visibility}`}>
 			<nav>
 				<Link
 					className="pointer link"

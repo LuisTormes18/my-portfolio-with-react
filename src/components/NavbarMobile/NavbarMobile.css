@@ -44,4 +44,12 @@ display: flex;
 
 .text_nav_item{
 	font-size: .7em;
+
 }
+
+.hidden{
+
+	visibility: hidden;
+	display: none;
+}
+

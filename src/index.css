@@ -29,12 +29,12 @@ body {
   
 
 }
-@media (min-width: 600px) {
+/*@media (min-width: 600px) {
     [id] {
         scroll-margin: 80px;
     }
 }
-
+*/
 .header-session {
     display: flex;
     align-items: center;

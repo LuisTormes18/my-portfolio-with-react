@@ -1,89 +1,90 @@
 #session-about {
-    position: relative;
-    height: 100vh;
-    max-height: 700px;
-    padding: 100px 15%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap:40px;
+	position: relative;
+	height: 100vh;
+	padding: 100px 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 40px;
 }
 
+@media (min-width: 900px) {
+	#session-about {
+		max-height: 700px;
+	}
+}
 @media (max-width: 900px) {
-    #session-about {
-        flex-direction: column;
-        height:auto;
-        padding: 100px 10%;
-    }
+	#session-about {
+		flex-direction: column;
+		height: auto;
+		padding: 40px 10%;
+	}
 }
 .about-img {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .about-img div {
-    height: 300px;
-    width: 300px;
-    margin: auto;
+	height: 300px;
+	width: 300px;
+	margin: auto;
 }
 @media (max-width: 500px) {
-    .about-img div {
-        height: 280px;
-        width: 280px;
-        margin: auto;
-    }
+	.about-img div {
+		height: 280px;
+		width: 280px;
+		margin: auto;
+	}
 }
 #who {
-    text-transform: uppercase;
-    font-family: "Josefin Sans", sans-serif;
-    padding-bottom: 20px;
-     
+	text-transform: uppercase;
+	font-family: "Josefin Sans", sans-serif;
+	padding-bottom: 20px;
 }
 .about-description {
-    display: flex;
-    align-items: center;
-    width: 550px;
-    max-width: 90%;
-    
+	display: flex;
+	align-items: center;
+	width: 550px;
+	max-width: 90%;
 }
-
-
+.about-description p{
+	display: block;
+	padding: 10px;
+}
 .about-img div img {
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    background-size: cover;
-    object-fit: cover;
-    object-position: center center;
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	background-size: cover;
+	object-fit: cover;
+	object-position: center center;
 }
-
-
 
 .btn {
-    margin-top: auto;
+	margin-top: auto;
 }
 .btn-cv {
-    display: block;
-    margin-top: 35px;
+	display: block;
+	margin-top: 35px;
 }
 .btn a {
-    text-decoration: none;
-    padding: 15px 45px;
-    height: 120;
-    border: 2px solid var(--background_color_principal);
-    color: var(--background_color_principal);
+	text-decoration: none;
+	padding: 15px 45px;
+	height: 120;
+	border: 2px solid var(--background_color_principal);
+	color: var(--background_color_principal);
 }
 .btn a:hover {
-    background: var(--background_color_principal);
-    color: white;
+	background: var(--background_color_principal);
+	color: white;
 }
 
 @media (max-width: 900px) {
-.about-description #who{
-    text-align: center;
-
-}
-    .btn {
-        text-align: center;
-    }
+	.about-description #who {
+		text-align: center;
+	}
+	.btn {
+		text-align: center;
+	}
 }

@@ -3,14 +3,16 @@
     height: auto;
     width: 100%;
 }
+
 .skills {
     height: auto;
     padding: 100px 10%;
-
-    
-
 }
-
+@media (max-width: 720px) {
+  .skills  {
+    padding: 40px 10%;
+  }
+}
 .skills ul {
     margin: 40px 0px;
     list-style: none;
