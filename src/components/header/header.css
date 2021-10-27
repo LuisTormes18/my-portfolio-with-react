@@ -4,22 +4,23 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
-    height: 100px;
+    height: 80px;
+    position: fixed;
     width: 100%;
     z-index: 12000;
     transition: 0.6s;
-    padding-top: 40px;
+
+
+    color: white;
 }
 #logo {
     position: relative;
-    width: 100px;
+    width: 135px;
     height: 100%;
     z-index: 12000;
 }
-#logo #img-logo {
+#logo img{
     width: 100%;
-    height: 65px;
-    padding-top: 10px;
 }
 #menu {
     display: flex;
@@ -96,35 +97,34 @@
         visibility: hidden;
         position: absolute;
         width: 0%;
-        top: 80px;
-        right: 10%;
-        background: white;
+        top: 0;
+        right: 0;
+        background: var(--background_color_principal);
         height: 0px;
         overflow-y: hidden;
         z-index: 1000;
-        transition: 0.4s;
+        transition: 0.6s;
     }
 
     .active-menu-mobile #menu {
-        height: auto;
-        width: 80%;
-        right: 10%;
-        margin-top: 20px;
-        padding-top: 60px;
+       height: 100vh;
+        max-height: 600px;
+        width: 100%;
+        right: 0px;
+        padding-top: 80px;
         visibility: visible;
         overflow-y: auto;
     }
     #menu li {
         width: 100%;
         text-align: center;
-        padding: 20px 30%;
+        padding: 30px 50px;
     }
     #menu li a:hover {
         border-bottom: 1px solid black;
     }
     #menu li a {
         display: inline;
-        color: hsl(212, 27%, 19%);
     }
     #menu #link_contact {
         text-align: center;
@@ -135,4 +135,16 @@
     #li-home {
         display: none;
     }
+}
+@media (min-width: 600px) {
+    .sticky {
+        background: var(--background_color_principal);
+    }
+    .sticky #menu a {
+        color: white;
+    }
+
+    .sticky #logo span {
+    color: white;
+}
 }

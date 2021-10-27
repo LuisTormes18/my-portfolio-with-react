@@ -1,0 +1,15 @@
+
+.ul-icons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.ul-icons li {
+    display: block;
+}
+.ul-icons li a {
+    font-size: 30px;
+    color: white;
+}

@@ -1,18 +1,27 @@
 import Hero from "./components/hero/Hero";
+import About from "./components/about/About";
+import Projects from "./components/projects/Projects";
+import Services from "./components/services/Services";
+import Skills from "./components/skills/Skills";
+import Footer from "./components/footer/Footer";
+
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
     return (
-        <div className="App">
-            {/* hero */}
+        <BrowserRouter>
+<div className="App">
             <Hero />
-            {/* session about */}
 
-            {/* session projects */}
+            <About />
+            <Projects />
+            <Services />
+            <Skills />
 
-            {/* session services */}
-
-            {/* session skills */}
+            <Footer />
         </div>
+
+        </ BrowserRouter>
     );
 }
 

@@ -1,0 +1,44 @@
+
+#session-skills {
+    height: auto;
+}
+.skills {
+    height: auto;
+    padding: 100px 5%;
+}
+.skills h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+}
+.skills ul {
+    margin: 40px 0px;
+    gap: 20px;
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-rows: 80px;
+
+}
+
+.li-skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 80px;
+    width: 200px;
+    border-radius: 7px;
+    transition: 0.2s;
+}
+
+.li-skills img {
+    width: 43px;
+    height: 45px;
+}
+.li-skills .w {
+    width: 65px;
+}

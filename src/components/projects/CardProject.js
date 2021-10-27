@@ -8,7 +8,7 @@ function CardProject({ project }) {
     return (
         <div className="card">
             <div className="card-img">
-                <img src={image} alt={title} />
+                <img src={`${image}`} alt={title} />
             </div>
 
             <div className="card-footer">
@@ -17,9 +17,9 @@ function CardProject({ project }) {
                 </div>
 
                 <ul className="card-tags">
-                    {tags.map(({ img, name }) => (
-                        <li key={name}>
-                            <img src={img} alt={name} />
+                    {tags.map((tag,index)=> (
+                        <li key={index}>
+                            <img src={tag.image} alt={tag.name} />
                         </li>
                     ))}
                 </ul>

@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import Myimg from "./../../assets/img/yo.jpg";
+import './about.css';
 function About() {
     return (
         <section id="session-about">
             <div className="about-img">
                 <div>
                     <img
-                        src="./assets/img/yo.jpg"
+                        src={Myimg}
                         loading="lazy"
                         alt="luis tormes"
                     />
@@ -15,12 +17,13 @@ function About() {
             </div>
             <div className="about-description">
                 <div>
-                    <h4>Who I'm?</h4>
+                    <h4 id='who'>Who I'm?</h4>
                     <hr />
+                    <br />
                     <p>
                         I am a Bachelor of Computer Science student at the
                         <b>Universidad de Oriente (VE)</b>, I am passionate
-                        about the world of programming and web development.{" "}
+                        about the world of programming and web development.
                         <br />I have knowledge in various technologies of the
                         Software development industry, I also have various
                         personal skills such as: <br />
@@ -31,7 +34,7 @@ function About() {
 
                     <span className="btn btn-cv">
                         <Link
-                            to="./assets/cv/luis_tormes_cv_en.pdf"
+                            to="./../../assets/cv/luis_tormes_cv_en.pdf"
                             target="_blank"
                         >
                             Download cv
