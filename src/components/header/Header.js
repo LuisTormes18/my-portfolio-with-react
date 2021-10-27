@@ -17,7 +17,7 @@ function Header() {
     window.onscroll = () => {
     let Scrollposition = window.pageYOffset;
 
-    if (Scrollposition > 320) {
+    if (Scrollposition > 319) {
         setSticky('sticky');
     } else {
         setSticky('');
@@ -41,11 +41,11 @@ function Header() {
                         <a href="#session-projects">Projects</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="#session-services">Services</a>
                     </li>
 
                     <li>
-                        <a href="#">Skills</a>
+                        <a href="#session-skills">Skills</a>
                     </li>
                 </ul>
             </nav>

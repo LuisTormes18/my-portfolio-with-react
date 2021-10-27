@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import './global.css';
 
@@ -7,31 +6,46 @@ function MenuIcons() {
     return (
         <ul className="ul-icons">
             <li>
-                <Link
+                <a
+                    href="https://www.linkedin.com/in/luis-angel-tormes-aguilera"
+                    aria-hidden="true"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                <i
                     className="fab fa-linkedin"
-                    to="https://www.linkedin.com/in/luis-angel-tormes-aguilera"
+
+                >
+                </i>
+                </a>
+            </li>
+            <li>
+                <a
+                    href="https://www.instagram.com/luistormes_oficial/"
                     aria-hidden="true"
                     target="_blank"
                     rel="noreferrer"
-                ></Link>
-            </li>
-            <li>
-                <Link
+                >
+<i
                     className="fab fa-instagram"
-                    to="https://www.instagram.com/luistormes_oficial/"
-                    aria-hidden="true"
-                    target="_blank"
-                    rel="noreferrer"
-                ></Link>
+
+                >
+                </i>
+                </a>
             </li>
             <li>
-                <Link
-                    className="fab fa-github"
-                    to="https://github.com/LuisTormes18"
+                <a
+                    href="https://github.com/LuisTormes18"
                     aria-hidden="true"
                     target="_blank"
                     rel="noreferrer"
-                ></Link>
+                >
+<i
+                    className="fab fa-github"
+
+                >
+                </i>
+                </a>
             </li>
         </ul>
     );

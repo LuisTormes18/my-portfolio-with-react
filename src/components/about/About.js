@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import Myimg from "./../../assets/img/yo.jpg";
 import './about.css';
@@ -33,12 +32,12 @@ function About() {
                     </p>
 
                     <span className="btn btn-cv">
-                        <Link
-                            to="./../../assets/cv/luis_tormes_cv_en.pdf"
+                        <a
+                            href="./../../assets/cv/luis_tormes_cv_en.pdf"
                             target="_blank"
                         >
                             Download cv
-                        </Link>
+                        </a>
                     </span>
                 </div>
             </div>

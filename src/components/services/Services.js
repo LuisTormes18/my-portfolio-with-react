@@ -2,9 +2,12 @@ import React from "react";
 
 function Services() {
     return (
-        <div>
-            <h1>Services</h1>
-        </div>
+        <session id='session-services'>
+
+<div className="header-session">
+                <h2>Services</h2>
+            </div>
+        </session>
     );
 }
 
