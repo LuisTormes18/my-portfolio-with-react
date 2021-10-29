@@ -8,20 +8,20 @@ function Footer() {
         <footer>
             <ul className="menu-footer">
                 <li>
-                    <a href="#session-1">Home</a>
+                    <a href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#session-2">About</a>
+                    <a href="#session-about">About</a>
                 </li>
                 <li>
-                    <a href="#session-3">Portfolio</a>
+                    <a href="#session-projects">Portfolio</a>
                 </li>
             </ul>
 
             <MenuIcons />
             
             <div className="licencia">
-                <span>&copy Luis Tormes | All rights reserved</span>
+                <span>© Luis Tormes | All rights reserved</span>
             </div>
         </footer>
     );

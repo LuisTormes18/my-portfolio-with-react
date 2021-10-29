@@ -1,7 +1,36 @@
-#session-sevices {
+#session-services {
+    display: block;
     text-align: center;
-    height: auto;
+    height: 500px;
     width: 100%;
-    padding: 0 10%;
+    padding: 100px 10%;
     padding-bottom: 60px;
+}
+.grid-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:40px;
+    background-color: red;
+}
+.service{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding: 20px;
+
+    background-color: blue;
+
+
+}
+.service span i{
+    font-size: 100px;
+}
+.service h3{
+    font-family: 'josefin sans';
 }

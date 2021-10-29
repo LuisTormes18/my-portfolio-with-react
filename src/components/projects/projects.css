@@ -1,8 +1,9 @@
 #session-projects {
+    display: block;
     text-align: center;
     height: auto;
     width: 100%;
-    padding: 0 10%;
+    padding: 100px 10%;
     padding-bottom: 60px;
 }
 
@@ -24,10 +25,11 @@
     min-width: 305px;
     max-height: 620px;
     text-align: left;
+    background-color: white;
 }
-.card:hover {
+/*.card:hover {
     box-shadow: var(--box-shadow-hover);
-}
+}*/
 
 @media (max-width: 815px) {
     .cards {

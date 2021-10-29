@@ -24,8 +24,8 @@ function CardProject({ project }) {
                     ))}
                 </ul>
                 <div className="sources">
-                    <CardBtn url={repository} text="GitHub" />
-                    <CardBtn url={source} text="Demo" />
+                    <CardBtn url={repository} text="repository" />
+                    <CardBtn url={source} text="demo" />
                 </div>
             </div>
         </div>

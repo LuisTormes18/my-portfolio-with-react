@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,600;1,100;1,200&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -27,6 +27,7 @@ html {
 html,
 body {
     overflow-x: hidden;
+
 }
 @media (min-width: 600px) {
     [id] {

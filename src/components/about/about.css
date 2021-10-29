@@ -1,4 +1,5 @@
 #session-about {
+    position: relative;
     height: 100vh;
     max-height: 800px;
     padding: 100px 10%;

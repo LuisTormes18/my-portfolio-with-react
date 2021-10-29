@@ -7,7 +7,10 @@ function Skills() {
     return (
         <section id="session-skills">
             <div className="skills">
+            <div className='header-session'>
                 <h2 >Skills</h2>
+
+            </div>
                 <ul>
                     {skills.map((tag,index) => (
                         <li className="li-skills" key={index}>

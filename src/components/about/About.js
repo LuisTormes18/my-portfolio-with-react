@@ -1,6 +1,8 @@
 import React from "react";
 
 import Myimg from "./../../assets/img/yo.jpg";
+import cv from "./../../assets/cv/luis_tormes_cv_en.pdf";
+
 import './about.css';
 function About() {
     return (
@@ -33,7 +35,7 @@ function About() {
 
                     <span className="btn btn-cv">
                         <a
-                            href="./../../assets/cv/luis_tormes_cv_en.pdf"
+                            href={cv}
                             target="_blank"
                         >
                             Download cv

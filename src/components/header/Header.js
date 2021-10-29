@@ -34,15 +34,21 @@ function Header() {
                     <span id="hamburger"> </span>
                 </button>
                 <ul id="menu">
+                 <li>
+                        <a href="#">Home</a>
+                    </li>
                     <li>
                         <a href="#session-about">About</a>
                     </li>
                                         <li>
                         <a href="#session-projects">Projects</a>
                     </li>
-                    <li>
-                        <a href="#session-services">Services</a>
-                    </li>
+                    {
+
+                    //     <li>
+                    //     <a href="#session-services">Services</a>
+                    // </li>
+                    }
 
                     <li>
                         <a href="#session-skills">Skills</a>
