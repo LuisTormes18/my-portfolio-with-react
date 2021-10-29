@@ -7,7 +7,7 @@ import './about.css';
 function About() {
     return (
         <section id="session-about">
-            <div className="about-img">
+            <div className="about-img animate__fadeInUp">
                 <div>
                     <img
                         src={Myimg}
@@ -16,7 +16,7 @@ function About() {
                     />
                 </div>
             </div>
-            <div className="about-description">
+            <div className="about-description animate__fadeInUp">
                 <div>
                     <h4 id='who'>Who I'm?</h4>
                     <hr />

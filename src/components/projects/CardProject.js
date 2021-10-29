@@ -6,7 +6,7 @@ function CardProject({ project }) {
     const { title, image, tags, repository, source } = project;
 
     return (
-        <div className="card">
+        <div className="card animate__fadeInUp">
             <div className="card-img">
                 <img src={`${image}`} alt={title} />
             </div>
