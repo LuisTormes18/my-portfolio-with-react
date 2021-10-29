@@ -22,8 +22,8 @@ function About() {
                     <hr />
                     <br />
                     <p>
-                        I am a Bachelor of Computer Science student at the
-                        <b>Universidad de Oriente (VE)</b>, I am passionate
+                        I am a Bachelor of Computer Science student at the 
+                        <b> Universidad de Oriente (VE)</b>, I am passionate
                         about the world of programming and web development.
                         <br />I have knowledge in various technologies of the
                         Software development industry, I also have various
