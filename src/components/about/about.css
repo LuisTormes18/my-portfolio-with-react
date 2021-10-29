@@ -1,7 +1,7 @@
 #session-about {
     position: relative;
     height: 100vh;
-    max-height: 800px;
+    max-height: 1000px;
     padding: 100px 10%;
    display: flex;
    justify-content: space-between;
@@ -12,6 +12,7 @@
 @media (max-width: 900px) {
     #session-about {
         flex-direction: column;
+        height:auto;
     }
 }
 .about-img {
