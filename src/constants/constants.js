@@ -76,7 +76,7 @@ export const projects = [
         image: sunnyside,
         tags: [skills[3], skills[1]],
         repository: "https://github.com/LuisTormes18/react-sunnyside-agency-landing-page-main",
-        source: "https:/lt-sunnyside.netlify.app",
+        source: "https://lt-sunnyside.netlify.app",
     },
     {
         title: "Cryptocurrency Price",
