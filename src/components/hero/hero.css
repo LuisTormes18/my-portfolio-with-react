@@ -11,6 +11,8 @@
 @media(max-width: 650px){
     #hero{
         height: 100vh;
+        max-height: 600px;
+        
     }
 }
 .hero__text {
