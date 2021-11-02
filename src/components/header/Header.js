@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
-import logo from './../../assets/img/logo.png'
+import Logo from "./../global/Logo";
+import MenuItem from './MenuItem';
 import './header.css';
 
 function Header() {
@@ -26,33 +27,19 @@ function Header() {
 
     return (
         <header className={`header ${sticky}`}>
-            <div id="logo">
-                <img src={logo} alt='logo'/>
-            </div>
+            <Logo />
+           
             <nav id="navbar" className={menuMovil}>
                 <button onClick={toogleMenu} id="btn-mobile">
                     <span id="hamburger"> </span>
                 </button>
                 <ul id="menu">
-                 <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#session-about">About</a>
-                    </li>
-                                        <li>
-                        <a href="#session-projects">Projects</a>
-                    </li>
-                    {
 
-                    //     <li>
-                    //     <a href="#session-services">Services</a>
-                    // </li>
-                    }
-
-                    <li>
-                        <a href="#session-skills">Skills</a>
-                    </li>
+                <MenuItem text='Home' to='hero' />
+                <MenuItem text='About' to='session-about' />
+                <MenuItem text='Projects' to='session-projects' />
+                <MenuItem text='Skills' to='session-skills' />
+                 
                 </ul>
             </nav>
         </header>

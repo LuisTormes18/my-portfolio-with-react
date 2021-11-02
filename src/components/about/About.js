@@ -11,7 +11,6 @@ function About() {
                 <div>
                     <img
                         src={Myimg}
-                        loading="lazy"
                         alt="luis tormes"
                     />
                 </div>
@@ -37,6 +36,7 @@ function About() {
                         <a
                             href={cv}
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Download cv
                         </a>

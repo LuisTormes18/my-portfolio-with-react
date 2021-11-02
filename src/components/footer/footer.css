@@ -4,10 +4,15 @@ footer {
     background: var(--background_color_principal);
     height: 200px;
     display: flex;
-    padding: 40px 5%;
+    padding: 0 5%;
     justify-content: space-between;
     align-items: center;
 }
+footer #logo{
+    height: 100px;
+    width: 150px;
+}
+
 footer ul {
     list-style: none;
 }
@@ -37,9 +42,13 @@ footer .ul-icons li a i{
     width: auto;
     height: auto;
     text-align: center;
+    font-weight: bold;
 }
 @media (max-width: 750px) {
     footer {
         flex-direction: column;
     }
 }
+
+
+

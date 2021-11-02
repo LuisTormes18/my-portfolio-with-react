@@ -12,9 +12,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-html {
+/*html {
     scroll-behavior: smooth;
-}
+}*/
 *:root {
     --background_color_principal: #282c34;
     --color-title: rgb(78, 78, 78);
@@ -45,4 +45,7 @@ body {
     font-size: 35px;
     text-transform: uppercase;
     font-family: "Josefin Sans", sans-serif;
+}
+.pointer{
+    cursor: pointer;
 }
