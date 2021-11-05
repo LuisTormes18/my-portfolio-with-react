@@ -5,11 +5,13 @@ import Services from "./components/services/Services";
 import Skills from "./components/skills/Skills";
 import Footer from "./components/footer/Footer";
 
-
 function App() {
     return (
-		<div className="App">
-		
+
+
+        <div className="App">
+
+        
             <Hero />
 
             <About />
