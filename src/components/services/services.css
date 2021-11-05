@@ -1,10 +1,13 @@
 #session-services {
     display: block;
     text-align: center;
-    height: 500px;
+    height: auto;
     width: 100%;
     padding: 100px 10%;
     padding-bottom: 60px;
+
+
+    
 }
 .grid-services{
     display: flex;
@@ -12,25 +15,26 @@
     align-items: center;
     flex-wrap: wrap;
     gap:40px;
-    background-color: red;
+
 }
-.service{
+.service-box{
     width: 300px;
     display: flex;
     flex-direction: column;
     height: 250px;
     align-items: center;
     justify-content: space-around;
-    
-    padding: 20px;
-
-    background-color: blue;
+    gap:10px;
+    padding: 40px;
 
 
 }
-.service span i{
-    font-size: 100px;
+.service-box span i{
+    font-size: 50px;
+
+    color: var(--colorCeleste);
+    padding: 10px;
 }
-.service h3{
+.service-box h3{
     font-family: 'josefin sans';
 }

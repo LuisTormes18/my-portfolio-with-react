@@ -36,6 +36,7 @@ function Header() {
                 <ul id="menu">
                     <MenuItem text="Home" to="hero" />
                     <MenuItem text="About" to="session-about" />
+                    <MenuItem text="Services" to="session-services" />
                     <MenuItem text="Projects" to="session-projects" />
                     <MenuItem text="Skills" to="session-skills" />
                 </ul>

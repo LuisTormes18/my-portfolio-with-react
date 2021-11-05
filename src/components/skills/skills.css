@@ -9,17 +9,18 @@
 .skills {
     height: auto;
     padding: 100px 10%;
+
 }
 
 .skills ul {
     margin: 40px 0px;
-    gap: 20px;
     list-style: none;
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     grid-template-rows: 80px;
-
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
 }
 
 .li-skills {
@@ -32,7 +33,12 @@
     height: 80px;
     width: 200px;
     border-radius: 7px;
-    transition: 0.2s;
+
+
+    background-color: rgba(200,200,200,.09);
+
+
+
 }
 
 .li-skills img {

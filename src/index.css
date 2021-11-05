@@ -23,10 +23,12 @@
     --box-shadow-hover: 10px 10px 10px rgb(58, 56, 56);
     --vibility: hidden;
     --seudoElement: hidden;
+    --colorCeleste: #1C89FC;
 }
 html,
 body {
     overflow-x: hidden;
+  
 
 }
 @media (min-width: 600px) {

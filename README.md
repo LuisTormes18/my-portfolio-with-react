@@ -4,7 +4,7 @@ This is my personal website, here I show information about who I am, my technica
 
 ## Preview
 
-![](/luis-tormes-portfolio.png)
+![](/public/luis-tormes-portfolio.png)
 
 ### Installation
 To install and run this proyect just type and execute

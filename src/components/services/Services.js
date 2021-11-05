@@ -11,23 +11,26 @@ function Services() {
             </div>
            <div className="grid-services">
                 <Service
-                    icon="fab fa-html"
-                    title="Developer web"
-                    description="texto texto texto texto textotextotexto 
-                    texto texto texto texto textotextotexto"
+                    icon="fal fa-code"
+                    title="Web Development"
+                    description="Creation of high-quality websites, which help you boost your business."
                 />
                 <Service
-                    icon="fab fa-html"
-                    title="Developer web"
-                    description="texto texto texto texto textotextotexto 
-                    texto texto texto texto textotextotexto"
+                    icon="fal fa-mobile"
+                    title="Responsive Design"
+                    description="Your site will display correctly on any device, including desktop computers, tablets, and mobile phones."
                 />
                 <Service
-                    icon="fab fa-html"
-                    title="Developer web"
-                    description="texto texto texto texto textotextotexto 
-                    texto texto texto texto textotextotexto"
+                    icon="fal fa-tachometer-alt-fastest"
+                    title="Performance"
+                    description=" Creation of high-performance sites to attract and retain users."
                 />
+                 <Service
+                    icon="fal fa-location"
+                    title="Seo"
+                    description="Optimization of your website to appear in the main search engines, and have a greater presence on the web for your clients"
+                />
+
             </div>
         </session>
     );
