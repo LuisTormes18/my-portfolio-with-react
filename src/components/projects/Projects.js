@@ -7,10 +7,10 @@ import './projects.css';
 function Projects() {
     return (
         <section id="session-projects">
-            <div class="header-session">
+            <div className="header-session">
                 <h2>Projects</h2>
             </div>
-            <div class="cards">
+            <div className="cards">
                 {projects.map((project) => (
                     <CardProject key={project.title} project={project} />
                 ))}

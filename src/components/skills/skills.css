@@ -2,13 +2,12 @@
 #session-skills {
     height: auto;
     width: 100%;
-
-
-
 }
 .skills {
     height: auto;
     padding: 100px 10%;
+
+    
 
 }
 
@@ -17,10 +16,11 @@
     list-style: none;
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: 80px;
-    grid-column-gap: 30px;
+    grid-column-gap: 20px;
     grid-row-gap: 20px;
+
 }
 
 .li-skills {
@@ -30,8 +30,10 @@
     gap: 10px;
     font-size: 15px;
     font-weight: bold;
+
     height: 80px;
     width: 200px;
+
     border-radius: 7px;
 
 
@@ -44,7 +46,4 @@
 .li-skills img {
     width: 43px;
     height: 45px;
-}
-.li-skills .w {
-    width: 65px;
 }

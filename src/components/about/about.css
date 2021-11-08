@@ -3,10 +3,10 @@
     height: 100vh;
     max-height: 700px;
     padding: 100px 15%;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   gap:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
 }
 
 @media (max-width: 900px) {
@@ -37,8 +37,7 @@
     text-transform: uppercase;
     font-family: "Josefin Sans", sans-serif;
     padding-bottom: 20px;
-   
-    
+     
 }
 .about-description {
     display: flex;
@@ -75,3 +74,7 @@
     background: var(--background_color_principal);
     color: white;
 }
+
+/*hr{
+    background-color: var(--colorCeleste);
+}*/

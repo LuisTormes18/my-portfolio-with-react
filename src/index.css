@@ -12,9 +12,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-/*html {
-    scroll-behavior: smooth;
-}*/
+
 *:root {
     --background_color_principal: #282c34;
     --color-title: rgb(78, 78, 78);
@@ -41,7 +39,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 0;
+    padding: 60px 0;
+}
+@media (max-width: 719px){
+.header-session {
+    justify-content: center;
+}
 }
 .header-session h2 {
     font-size: 35px;

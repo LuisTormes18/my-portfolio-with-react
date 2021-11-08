@@ -2,9 +2,9 @@ footer {
     color: white;
     width: 100%;
     background: var(--background_color_principal);
-    height: 200px;
+    height: 250px;
     display: flex;
-    padding: 0 5%;
+    padding: 40px 5%;
     justify-content: space-between;
     align-items: center;
 }
@@ -39,14 +39,15 @@ footer .ul-icons li a i{
     text-decoration: underline;
 }
 .licencia {
-    width: auto;
-    height: auto;
     text-align: center;
     font-weight: bold;
 }
 @media (max-width: 750px) {
     footer {
         flex-direction: column;
+    }
+    footer .ul-icons{
+        padding: 20px;
     }
 }
 

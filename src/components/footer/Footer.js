@@ -9,6 +9,7 @@ function Footer() {
         <footer>
             
             <Logo />
+            
             <MenuIcons />
             
             <div className="licencia">

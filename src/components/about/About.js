@@ -7,7 +7,7 @@ import './about.css';
 function About() {
     return (
         <section id="session-about">
-            <div className="about-img animate__fadeInUp">
+            <div className="about-img">
                 <div>
                     <img
                         src={Myimg}
@@ -15,14 +15,14 @@ function About() {
                     />
                 </div>
             </div>
-            <div className="about-description animate__fadeInUp">
+            <div className="about-description">
                 <div>
                     <h4 id='who'>Who I'm?</h4>
                     <hr />
                     <br />
                     <p>
                         I am a Bachelor of Computer Science student at the 
-                        <b> Universidad de Oriente (VE)</b>, I am passionate
+                        Universidad de Oriente (VE), I am passionate
                         about the world of programming and web development.
                         <br />I have knowledge in various technologies of the
                         Software development industry, I also have various
