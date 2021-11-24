@@ -43,6 +43,8 @@
     display: flex;
     align-items: center;
     width: 550px;
+    max-width: 90%;
+    
 }
 
 
@@ -79,7 +81,6 @@
 @media (max-width: 900px) {
 .about-description #who{
     text-align: center;
-    max-width: 90%;
 
 }
     .btn {
