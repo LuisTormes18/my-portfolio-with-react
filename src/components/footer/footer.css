@@ -11,10 +11,12 @@ footer {
 footer #logo{
     height: 100px;
     width: 150px;
+
 }
 
 footer ul {
     list-style: none;
+
 }
 footer a {
     color: white;
