@@ -1,3 +1,4 @@
+import ltnews from "./../assets/img/ltnews.png";
 import contactBook from "./../assets/img/contactbook.png";
 import drinkfinder from "./../assets/img/drinkfinder.png";
 import sunnyside from "./../assets/img/sunnyside.jpeg";
@@ -14,6 +15,7 @@ import mdb from "./../assets/img/skills/mdb.png";
 import mysql from "./../assets/img/skills/mysql.jpg";
 import js from "./../assets/img/skills/js.jpg";
 import bootr from "./../assets/img/skills/bt.png";
+import nextjs from "./../assets/img/skills/nextjs.png";
 
 export const skills = [
     {
@@ -55,8 +57,20 @@ export const skills = [
         image: mysql,
         name: "MySql",
     },
+     {
+        image: nextjs,
+        name: "nextjs",
+    },
 ];
 export const projects = [
+    {
+        title: "LTNews",
+        image: ltnews,
+        tags: [skills[9], skills[1]],
+        repository: "https://github.com/LuisTormes18/contactBook-reaact-app",
+        source: "https://ltnews.netlify.app",
+    },
+
     {
         title: "Contact Book",
         image: contactBook,
