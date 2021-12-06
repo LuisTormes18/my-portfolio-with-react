@@ -67,7 +67,7 @@ export const projects = [
         title: "LTNews",
         image: ltnews,
         tags: [skills[9], skills[1]],
-        repository: "https://github.com/LuisTormes18/lt-news",
+        repository: "https://github.com/LuisTormes18/contactBook-reaact-app",
         source: "https://ltnews.netlify.app",
     },
 
