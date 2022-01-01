@@ -54,14 +54,9 @@
     height: 30px;
     display: flex;
     align-items: center;
-    list-style: none;
     column-gap: 25px;
     padding: 10px;
     margin: 10px;
-}
-.card-tags img {
-    width: 30px;
-    height: 30px;
 }
 
 .card-btn {

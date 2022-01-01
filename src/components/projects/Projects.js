@@ -12,7 +12,7 @@ function Projects() {
             </div>
             <div className="cards">
                 {projects.map((project) => (
-                    <CardProject key={project.title} project={project} />
+                    <CardProject key={project.title} {...project} />
                 ))}
             </div>
         </section>

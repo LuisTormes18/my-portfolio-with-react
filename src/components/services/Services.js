@@ -25,11 +25,7 @@ function Services() {
                     title="Performance"
                     description=" Creation of high-performance sites to attract and retain users."
                 />
-                 <Service
-                    icon="fal fa-location"
-                    title="Seo"
-                    description="Optimization of your website to appear in the main search engines, and have a greater presence on the web for your clients"
-                />
+                
 
             </div>
         </session>
@@ -38,3 +34,8 @@ function Services() {
 
 export default Services;
  
+ //  <Service
+                //     icon="fal fa-location"
+                //     title="Seo"
+                //     description="Optimization of your website to appear in the main search engines, and have a greater presence on the web for your clients"
+                // />

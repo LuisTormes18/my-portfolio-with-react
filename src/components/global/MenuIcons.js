@@ -1,6 +1,6 @@
 import React from "react";
 
-import './global.css';
+import "./global.css";
 
 function MenuIcons() {
     return (
@@ -12,11 +12,7 @@ function MenuIcons() {
                     target="_blank"
                     rel="noreferrer"
                 >
-                <i
-                    className="fab fa-linkedin"
-
-                >
-                </i>
+                    <i className="fab fa-linkedin"></i>
                 </a>
             </li>
             <li>
@@ -26,11 +22,7 @@ function MenuIcons() {
                     target="_blank"
                     rel="noreferrer"
                 >
-<i
-                    className="fab fa-instagram"
-
-                >
-                </i>
+                    <i className="fab fa-instagram"></i>
                 </a>
             </li>
             <li>
@@ -40,11 +32,7 @@ function MenuIcons() {
                     target="_blank"
                     rel="noreferrer"
                 >
-<i
-                    className="fab fa-github"
-
-                >
-                </i>
+                    <i className="fab fa-github"></i>
                 </a>
             </li>
         </ul>

@@ -2,11 +2,10 @@ import React from "react";
 
 import CardBtn from "./CardBtn";
 
-function CardProject({ project }) {
-    const { title, image, tags, repository, source } = project;
+function CardProject({ title, image, tags, repository, source }) {
 
     return (
-        <div className="card animate__fadeInUp">
+        <div className="card">
             <div className="card-img">
                 <img src={`${image}`} alt={title} />
             </div>
@@ -16,13 +15,7 @@ function CardProject({ project }) {
                     <h2>{title}</h2>
                 </div>
 
-                <ul className="card-tags">
-                    {tags.map((tag,index)=> (
-                        <li key={index}>
-                            <img src={tag.image} alt={tag.name} />
-                        </li>
-                    ))}
-                </ul>
+                <div className="card-tags">{tags}</div>
                 <div className="sources">
                     <CardBtn url={repository} text="repository" />
                     <CardBtn url={source} text="demo" />
