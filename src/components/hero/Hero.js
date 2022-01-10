@@ -3,7 +3,7 @@ import React from "react";
 import "./hero.css";
 
 import Header from "./../header/Header";
-import MenuIcons from "./../MenuIcons/MenuIcons";
+import NavbarIcons from "./../NavbarIcons/NavbarIcons";
 
 function Hero() {
   return (
@@ -13,7 +13,7 @@ function Hero() {
       <div className="hero__text">
         <h1 translate="no">Hi, I'm Luis Tormes</h1>
         <p translate="no">Web Developer.</p>
-        <MenuIcons />
+        <NavbarIcons />
       </div>
     </div>
   );

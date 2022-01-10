@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./MenuIcons.css";
+import "./NavbarIcons.css";
 
-function MenuIcons() {
+function NavbarIcons() {
   return (
     <ul className="ul-icons">
       <li>
@@ -39,4 +39,4 @@ function MenuIcons() {
   );
 }
 
-export default MenuIcons;
+export default NavbarIcons;

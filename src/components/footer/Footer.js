@@ -1,6 +1,6 @@
 import React from "react";
 
-import MenuIcons from "./../MenuIcons/MenuIcons";
+import NavbarIcons from "./../NavbarIcons/NavbarIcons";
 import Logo from "./../Logo/Logo";
 import "./footer.css";
 
@@ -9,7 +9,7 @@ function Footer() {
     <footer>
       <Logo />
 
-      <MenuIcons />
+      <NavbarIcons />
 
       <div className="licencia">
         <span>© Luis Tormes | All rights reserved</span>
