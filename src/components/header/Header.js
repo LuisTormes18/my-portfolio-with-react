@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import Logo from "./../global/Logo";
+import Logo from "./../Logo/Logo";
 import MenuItem from "./MenuItem";
 import "./header.css";
 

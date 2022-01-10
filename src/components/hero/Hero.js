@@ -1,22 +1,22 @@
 import React from "react";
 
-import './hero.css';
+import "./hero.css";
 
 import Header from "./../header/Header";
-import MenuIcons from "./../global/MenuIcons";
+import MenuIcons from "./../MenuIcons/MenuIcons";
 
 function Hero() {
-    return (
-        <div id="hero">
-            <Header />
+  return (
+    <div id="hero">
+      <Header />
 
-            <div className="hero__text">
-                <h1 translate="no">Hi, I'm Luis Tormes</h1>
-                <p translate="no">Web Developer.</p>
-                <MenuIcons />
-            </div>
-        </div>
-    );
+      <div className="hero__text">
+        <h1 translate="no">Hi, I'm Luis Tormes</h1>
+        <p translate="no">Web Developer.</p>
+        <MenuIcons />
+      </div>
+    </div>
+  );
 }
 
 export default Hero;
