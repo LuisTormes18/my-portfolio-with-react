@@ -54,3 +54,7 @@ body {
 .pointer{
     cursor: pointer;
 }
+
+.App{
+    position: relative;
+}

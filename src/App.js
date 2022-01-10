@@ -4,29 +4,26 @@ import Projects from "./components/projects/Projects";
 import Services from "./components/services/Services";
 import Skills from "./components/skills/Skills";
 import Footer from "./components/footer/Footer";
+import NavbarMobile from "./components/NavbarMobile/index";
 
 function App() {
-    return (
+  return (
+    <div className="App">
+      <NavbarMobile />
 
+      <Hero />
 
-        <div className="App">
+      <About />
 
-        
-            <Hero />
+      <Services />
 
-            <About />
+      <Projects />
 
-            <Services />
+      <Skills />
 
-            <Projects />
-            
-            <Skills />
-
-            <Footer />
-        </div>
-
-    );
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
-

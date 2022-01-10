@@ -1,0 +1,42 @@
+@media(min-width: 500px){
+	.navbarMobile{
+	display: none;
+	visibility: hidden;
+}
+}
+
+.navbarMobile{
+	position: fixed;
+	width: 80%;
+	height: 50px;
+
+	background-color: #fff;
+	z-index: 50000;
+
+	top: 90%;
+
+	right: 10%;
+
+	box-shadow: 1px 1px 3px 3px var(--colorCeleste);
+
+
+	border-radius: 10px;
+
+
+}
+.navbarMobile nav{
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	visibility: visible;
+
+	transition: visibility 3s;
+
+
+}
+
+.hidden{
+	display: none;
+	visibility: hidden;
+}
