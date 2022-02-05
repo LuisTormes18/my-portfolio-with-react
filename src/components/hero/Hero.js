@@ -11,7 +11,7 @@ function Hero() {
       <Header />
 
       <div className="hero__text">
-        <h1 translate="no">Hi, I'm Luis Tormes</h1>
+        <h1 translate="no">Luis Tormes</h1>
         <p translate="no">Frontend Developer</p>
         <NavbarIcons />
       </div>
