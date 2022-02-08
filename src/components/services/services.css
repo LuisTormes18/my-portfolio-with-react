@@ -5,6 +5,12 @@
   width: 100%;
   padding: 100px 10%;
   padding-bottom: 60px;
+
+  /*background: var(--background_color_principal);*/
+
+
+  /*color: white;*/
+
 }
 @media (max-width: 720px) {
   #session-services {
