@@ -10,10 +10,14 @@ function Hero() {
     <div id="hero">
       <Header />
 
-      <div className="hero__text">
-        <h1 translate="no">Luis Tormes</h1>
-        <p translate="no">Frontend Developer</p>
-        <NavbarIcons />
+      <div class="h-100 d-flex justify-content-center align-items-center">
+        <div class="texts text-center p-2  ">
+          <h1>
+            Luis <span>Tormes</span>
+          </h1>
+          <p translate="no">Frontend Developer</p>
+          <NavbarIcons />
+        </div>
       </div>
     </div>
   );

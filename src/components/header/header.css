@@ -10,9 +10,15 @@
   transition: 0.6s;
 
   color: white;
+  position: fixed;
 }
-@media( max-width: 500px){
-  .header{
+
+.sticky {
+  background: var(--background_color_principal);
+}
+
+@media (max-width: 500px) {
+  .header {
     display: none;
     visibility: hidden;
   }
@@ -43,91 +49,34 @@
 
 @media (max-width: 719px) {
   #btn-mobile {
-    display: flex;
-    height: 100%;
-    align-items: center;
+    display: block;
     z-index: 12000;
     padding: 5px;
     border: none;
     background: transparent;
-    font-weight: 800;
     cursor: pointer;
-  }
-  #hamburger {
-    display: white;
-    border-top: 4px solid white;
-    width: 30px;
-    height: 100%;
-    transition: 0.6s;
-  }
-  #hamburger::after,
-  #hamburger::before {
-    content: "";
-    display: block;
-    height: 4px;
-    width: 30px;
-    background: white;
-    margin-top: 5px;
-    transition: 0.6s;
-    position: relative;
   }
 
   #menu {
-    display: block;
+    flex-direction: column;
+    row-gap: 15px;
     visibility: hidden;
     position: absolute;
-    width: 0%;
-    top: 0;
+    width: 100%;
+    top: 80px;
     right: 0;
-    background: var(--background_color_principal);
+    background-color: transparent;
     height: 0px;
-    overflow-y: hidden;
-    z-index: 1000;
-    transition: 0.6s;
-  }
+    padding: 35px;
 
+    transition: 0.3s;
+  }
   .active-menu-mobile #menu {
-    height: 100vh;
-    max-height: 600px;
-    width: 100%;
-    right: 0px;
-    padding-top: 80px;
+    height: auto;
     visibility: visible;
-    overflow-y: auto;
-  }
-  #menu li {
-    width: 100%;
-    text-align: center;
-    padding: 30px 50px;
-  }
-  #menu li a:hover {
-    border-bottom: 1px solid black;
-  }
-  #menu li a {
-    display: inline;
-  }
-  #menu #link_contact {
-    text-align: center;
-    background-color: hsl(51, 100%, 49%);
-    width: 100%;
   }
 
-  #li-home {
-    display: none;
-  }
-}
-@media (min-width: 720px) {
-  .header {
-    position: fixed;
-  }
-  .sticky {
-    background: var(--background_color_principal);
-  }
-  .sticky #menu a {
-    color: white;
-  }
-
-  .sticky #logo span {
-    color: white;
+  .sticky .active-menu-mobile #menu {
+    background-color: var(--background_color_principal);
   }
 }

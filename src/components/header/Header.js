@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { MdMenu } from "react-icons/md";
 
 import Logo from "./../Logo/Logo";
 import MenuItem from "./MenuItem";
@@ -13,7 +14,7 @@ function Header() {
   window.onscroll = () => {
     let scrollPosition = window.pageYOffset;
 
-    if (scrollPosition > 319) {
+    if (scrollPosition > 1) {
       setSticky("sticky");
     } else {
       setSticky("");
@@ -21,6 +22,7 @@ function Header() {
   };
 
   return (
+    
     <header className={`header ${sticky}`}>
       <Logo />
 
@@ -31,7 +33,7 @@ function Header() {
           }}
           id="btn-mobile"
         >
-          <span id="hamburger"> </span>
+          <MdMenu size={35} color={"#f1f1f1"} />
         </button>
         <ul id="menu">
           <MenuItem text="Home" to="hero" />

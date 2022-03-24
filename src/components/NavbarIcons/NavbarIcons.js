@@ -1,14 +1,11 @@
-import React from "react";
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
-
-import "./NavbarIcons.css";
 
 function NavbarIcons() {
   const iconSize = 30;
   const iconColor = "#f1f1f1";
 
   return (
-    <ul className="ul-icons">
+    <ul className="d-flex justify-content-center gap-3  ">
       <li>
         <a
           href="https://www.linkedin.com/in/luis-angel-tormes-aguilera"
