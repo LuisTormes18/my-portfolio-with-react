@@ -9,7 +9,8 @@ import NavbarMobile from "./components/NavbarMobile/index";
 function App() {
   return (
     <div className="App">
-      <NavbarMobile />
+    <main>
+    <NavbarMobile />
 
       <Hero />
 
@@ -22,6 +23,8 @@ function App() {
       <Skills />
 
       <Footer />
+    </main>
+      
     </div>
   );
 }

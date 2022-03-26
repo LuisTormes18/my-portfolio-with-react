@@ -10,8 +10,8 @@ function Hero() {
     <div id="hero">
       <Header />
 
-      <div class="h-100 d-flex justify-content-center align-items-center">
-        <div class="texts text-center p-2  ">
+      <div className="hero_contents">
+        <div className="texts ">
           <h1>
             Luis <span>Tormes</span>
           </h1>

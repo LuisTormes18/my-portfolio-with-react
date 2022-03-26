@@ -1,4 +1,4 @@
-@media(min-width: 500px){
+@media(min-width: 501px){
 	.navbarMobile{
 	display: none;
 	visibility: hidden;
@@ -17,7 +17,12 @@
 
 	right: 10%;
 
-	box-shadow: 1px 1px 3px 3px var(--colorCeleste);
+	/*box-shadow: 1px 2px 3px 3px rgba(28, 137, 252,.6);*/
+
+	 box-shadow:  0 0 3px  rgba(28, 137, 252,.6);
+      -moz-box-shadow: 0 0 3px  rgba(28, 137, 252,.6);
+      -webkit-box-shadow: 0 0 3px  rgba(28, 137, 252,.6);
+      -o-box-shadow: 0 0 3px  rgba(28, 137, 252,.6);
 
 
 	border-radius: 10px;
@@ -36,7 +41,7 @@
 
 }
 .navbarMobile nav .link{
-display: flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
@@ -46,10 +51,10 @@ display: flex;
 	font-size: .7em;
 
 }
-
+/*
 .hidden{
 
 	visibility: hidden;
 	display: none;
-}
+}*/
 

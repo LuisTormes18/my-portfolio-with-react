@@ -10,17 +10,27 @@
   position: relative;
 }
 
-#hero .texts h1 {
+.hero_contents{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texts{
+  text-align: center;
+  padding: 20px;
+}
+ .texts h1 {
   font-size: 60px;
   font-weight: bold;
   color: whitesmoke;
 }
-#hero .texts span {
+ .texts span {
   font-size: 60px;
   font-weight: bold;
   color: var(--colorCeleste);
 }
-#hero .texts p {
+  .texts p {
   font-size: 18px;
   color: #f5f5f5;
 }
