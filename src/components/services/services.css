@@ -41,5 +41,6 @@
   padding: 10px;
 }
 .service-box h3 {
-  font-family: "josefin sans";
+  font-size: .7em;
+    font-family: "josefin sans";
 }
