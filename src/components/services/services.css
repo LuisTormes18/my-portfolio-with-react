@@ -41,6 +41,9 @@
   padding: 10px;
 }
 .service-box h3 {
-  font-size: .7em;
+  font-size: 17px;
     font-family: "josefin sans";
+}
+.service-box p{
+  font-size: 15px;
 }
