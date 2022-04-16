@@ -2,8 +2,8 @@ import React from "react";
 
 import "./hero.css";
 
-import Header from "./../header/Header";
-import NavbarIcons from "./../NavbarIcons/NavbarIcons";
+import Header from "../header/Header";
+import NavbarIcons from "../NavbarIcons/NavbarIcons";
 
 function Hero() {
   return (

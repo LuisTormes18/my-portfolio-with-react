@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { MdMenu } from "react-icons/md";
 
-import Logo from "./../Logo/Logo";
+import Logo from "../Logo/Logo";
 import MenuItem from "./MenuItem";
 import "./header.css";
 
@@ -22,7 +22,6 @@ function Header() {
   };
 
   return (
-    
     <header className={`header ${sticky}`}>
       <Logo />
 

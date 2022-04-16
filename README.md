@@ -4,19 +4,22 @@ This is my personal website, here I show information about who I am, my technica
 
 ## Preview
 
-![](/public/luis-tormes-portfolio.png)
+![](/src/assets/img/luis-tormes-portfolio.png)
 
 ### Installation
-To install and run this proyect just type and execute
+
+To install and run this project just type and execute
+
 ```bash
 npm install
+yarn install
 ```
 
-## Demo 
+## Demo
 
-If you want to see the demo of this project deployed, you can visit [Demo of the project](https://luistormes.netlify.app/)
+If you want to see the demo of this project deployed, you can visit [luistormes.netlify.app](https://luistormes.netlify.app/)
 
 ## Build with 🛠️
 
-* [React](https://es.reactjs.org/) - The web framework used
-* [CSS](https://developer.mozilla.org/es/docs/Web/CSS) - Style Manager
+- [React](https://es.reactjs.org/) - The web framework used
+- [CSS](https://developer.mozilla.org/es/docs/Web/CSS) - Style Manager

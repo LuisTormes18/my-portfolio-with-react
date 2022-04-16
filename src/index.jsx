@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import "animate.css";
 import "./index.css";
 import App from "./App";
-
-import 'animate.css';
 
 ReactDOM.render(<App />, document.getElementById("root"));

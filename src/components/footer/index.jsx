@@ -1,7 +1,7 @@
 import React from "react";
 
-import NavbarIcons from "./../NavbarIcons/NavbarIcons";
-import Logo from "./../Logo/Logo";
+import NavbarIcons from "../NavbarIcons/NavbarIcons";
+import Logo from "../Logo/Logo";
 import "./footer.css";
 
 function Footer() {
