@@ -1,4 +1,4 @@
-import ltmovies from "./../assets/img/ltmovies.jpg";
+import ltmovies from "./../assets/img/ltmovies.png";
 import ltnews from "./../assets/img/ltnews.png";
 import contactBook from "./../assets/img/contactbook.png";
 import drinkfinder from "./../assets/img/drinkfinder.png";
@@ -37,9 +37,8 @@ const nextIcon = <SiNextdotjs size={25} />;
 const expressIcon = <SiExpress size={25} />;
 
 export const projects = [
-
   {
-    title: "LTMOVIES",
+    title: "LTMovies",
     image: ltmovies,
     tags: [reactIcon, cssIcon],
     repository: "https://github.com/LuisTormes18/lt-movies",
@@ -83,12 +82,12 @@ export const projects = [
     repository: "https://github.com/LuisTormes18/landing-fylo-dark-theme",
     source: "https://lt-fylo.netlify.app",
   },
-  {
-    title: "Loopstudios ",
-    image: loopstudios,
-    tags: [htmlIcon, cssIcon, jsIcon],
-    repository:
-      "https://github.com/LuisTormes18/reto-loopstudios-landing-page-main",
-    source: "https://lt-loopstudios.netlify.app",
-  },
+  // {
+  //   title: "Loopstudios ",
+  //   image: loopstudios,
+  //   tags: [htmlIcon, cssIcon, jsIcon],
+  //   repository:
+  //     "https://github.com/LuisTormes18/reto-loopstudios-landing-page-main",
+  //   source: "https://lt-loopstudios.netlify.app",
+  // },
 ];
