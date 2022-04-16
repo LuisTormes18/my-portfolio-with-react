@@ -1,3 +1,4 @@
+import ltmovies from "./../assets/img/ltmovies.jpg";
 import ltnews from "./../assets/img/ltnews.png";
 import contactBook from "./../assets/img/contactbook.png";
 import drinkfinder from "./../assets/img/drinkfinder.png";
@@ -36,6 +37,14 @@ const nextIcon = <SiNextdotjs size={25} />;
 const expressIcon = <SiExpress size={25} />;
 
 export const projects = [
+
+  {
+    title: "LTMOVIES",
+    image: ltmovies,
+    tags: [reactIcon, cssIcon],
+    repository: "https://github.com/LuisTormes18/lt-movies",
+    source: "https://ltmovies.netlify.app",
+  },
   {
     title: "LTNews",
     image: ltnews,
@@ -44,13 +53,6 @@ export const projects = [
     source: "https://ltnews.netlify.app",
   },
 
-  // {
-  //   title: "Contact Book",
-  //   image: contactBook,
-  //   tags: [reactIcon, sassIcon, bootstrapIcon, nodeIcon],
-  //   repository: "https://github.com/LuisTormes18/contactBook-reaact-app",
-  //   source: "https://lt-contactbook.netlify.app",
-  // },
   {
     title: "Drink Finder",
     image: drinkfinder,
