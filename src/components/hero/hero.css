@@ -1,7 +1,7 @@
 #hero {
   height: 100vh;
   max-height: 700px;
-
+  min-height: 700px;
   background-image: linear-gradient(var(--overlay), var(--overlay) 100%),
     url("./../../assets/img/hero-bg.jpg");
   background-repeat: no-repeat;
@@ -9,7 +9,11 @@
   background-size: cover;
   position: relative;
 }
-
+@media(max-width: 650px ){
+  #hero{
+    min-height: 100vh;
+  }
+}
 .hero_contents{
   height: 100%;
   display: flex;
