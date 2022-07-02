@@ -1,51 +1,45 @@
-
 #session-skills {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .skills {
-    height: auto;
-    padding: 100px 10%;
+  height: auto;
+  padding: 100px 10%;
 }
 @media (max-width: 720px) {
-  .skills  {
+  .skills {
     padding: 40px 10%;
   }
 }
 .skills ul {
-    margin: 40px 0px;
-    list-style: none;
+  margin: 40px 0px;
+  list-style: none;
 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: 80px;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 80px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
 .li-skills {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    font-size: 15px;
-    font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: bold;
 
-    height: 80px;
-    width: 200px;
+  height: 80px;
+  width: 200px;
 
-    border-radius: 7px;
+  border-radius: 7px;
 
-
-    background-color: rgba(200,200,200,.09);
-
-
-
+  background-color: rgba(200, 200, 200, 0.09);
 }
 
 .li-skills img {
-    width: 45px;
-    height: 45px;
+  width: 45px;
+  height: 45px;
 }

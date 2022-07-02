@@ -12,8 +12,8 @@ function Hero() {
 
       <div className="hero_contents">
         <div className="texts ">
-          <h1>
-            Luis <span>Tormes</span>
+          <h1 translate="no">
+            Luis<span>Tormes</span>
           </h1>
           <p translate="no">Frontend Developer</p>
           <NavbarIcons />

@@ -1,5 +1,5 @@
 .header {
-   position: fixed;
+  position: fixed;
   display: flex;
   background: transparent;
   justify-content: space-between;
@@ -12,12 +12,11 @@
 
   color: white;
   max-width: 2000px;
-  
 }
 
 .sticky {
   background: var(--background_color_principal);
-  box-shadow: 1px 2px 2px 2px  rgba(1,1,1,.1);
+  box-shadow: 1px 2px 2px 2px rgba(1, 1, 1, 0.1);
 }
 @media (max-width: 500px) {
   .header {
@@ -37,8 +36,11 @@
 
   padding: 10px 20px;
   border-radius: 28px;
-  font-family: "Barlow", sans-serif;
-  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+  /*font-family: "Barlow", sans-serif;*/
+  /*text-transform: uppercase;*/
+  /*font-weight: 600;*/
+  font-size: 18px;
 }
 #menu a:hover {
   background-color: rgb(250, 250, 250, 0.4);
@@ -54,8 +56,8 @@
     background: var(--overlay);
   }
   .sticky {
-  background: var(--background_color_principal);
-}
+    background: var(--background_color_principal);
+  }
   #btn-mobile {
     display: block;
     padding: 5px;
@@ -67,7 +69,7 @@
   #menu {
     padding: 1em;
     flex-direction: column;
-    row-gap: 1em; 
+    row-gap: 1em;
     align-items: start;
     background: var(--overlay);
     position: absolute;
@@ -82,7 +84,7 @@
   }
   #menu a:hover {
     background-color: transparent;
-    color:var(--colorCeleste);
+    color: var(--colorCeleste);
   }
   .active-menu-mobile #menu {
     height: 400px;
@@ -90,7 +92,7 @@
     visibility: visible;
     overflow-y: auto;
   }
-  .sticky .active-menu-mobile #menu{
-  background: var(--background_color_principal);
-}
+  .sticky .active-menu-mobile #menu {
+    background: var(--background_color_principal);
+  }
 }

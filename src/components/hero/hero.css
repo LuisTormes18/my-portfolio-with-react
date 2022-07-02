@@ -9,38 +9,42 @@
   background-size: cover;
   position: relative;
 }
-@media(max-width: 650px ){
-  #hero{
+@media (max-width: 650px) {
+  #hero {
     min-height: 100vh;
   }
 }
-.hero_contents{
+.hero_contents {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.texts{
+.texts {
   text-align: center;
   padding: 20px;
 }
- .texts h1 {
-  font-size: 60px;
-  font-weight: bold;
+.texts h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 70px;
+  font-weight: lighter;
   color: whitesmoke;
   display: inline-block;
   margin: 0;
   padding: 0;
 }
- .texts span {
+.texts span {
+  font-family: "Josefin Sans", sans-serif;
   display: inline-block;
-   margin: 0;
-   padding: 0;
-  font-size: 60px;
-  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-size: 70px;
+  font-weight: lighter;
   color: var(--colorCeleste);
 }
-  .texts p {
-  font-size: 18px;
+.texts p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
   color: #f5f5f5;
+  font-weight: lighter;
 }

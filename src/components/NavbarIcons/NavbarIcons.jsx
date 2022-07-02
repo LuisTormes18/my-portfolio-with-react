@@ -1,6 +1,6 @@
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
-import  './NavbarIcons.css'
+import "./NavbarIcons.css";
 function NavbarIcons() {
   const iconSize = 30;
   const iconColor = "#f1f1f1";

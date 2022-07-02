@@ -8,9 +8,7 @@
 
   /*background: var(--background_color_principal);*/
 
-
   /*color: white;*/
-
 }
 @media (max-width: 720px) {
   #session-services {
@@ -42,8 +40,8 @@
 }
 .service-box h3 {
   font-size: 17px;
-    font-family: "josefin sans";
+  font-family: "josefin sans";
 }
-.service-box p{
+.service-box p {
   font-size: 15px;
 }

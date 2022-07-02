@@ -20,7 +20,7 @@
   --background_color_principal: #282c34;
   --color-title: rgb(78, 78, 78);
   --color-hover: rgb(250, 250, 249);
-  --box-shadow: 1px 2px 2px 2px rgba(83, 83, 82, .3);
+  --box-shadow: 1px 2px 2px 2px rgba(83, 83, 82, 0.3);
   --box-shadow-hover: 10px 10px 10px rgb(58, 56, 56);
   --vibility: hidden;
   --seudoElement: hidden;
