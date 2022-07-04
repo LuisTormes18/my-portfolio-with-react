@@ -82,6 +82,7 @@
   color: var(--background_color_principal);
 }
 .btn-cv-en {
+  border: 2px solid var(--background_color_principal);
   background: var(--background_color_principal);
   color: white;
 }
