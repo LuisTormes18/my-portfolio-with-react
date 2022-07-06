@@ -15,12 +15,13 @@ function Text({ text }) {
 
 const NavbarMobile = () => {
   const iconSize = 30;
+  const iconColor = "#282c34"
 
   return (
     <div className="navbarMobile">
       <nav>
         <Link className="pointer link" to="hero" smooth={true} duration={1100}>
-          <MdHome size={iconSize} />
+          <MdHome size={iconSize} color={iconColor}/>
           <Text text="Home" />
         </Link>
         <Link
@@ -29,7 +30,7 @@ const NavbarMobile = () => {
           smooth={true}
           duration={1100}
         >
-          <MdPermIdentity size={iconSize} />
+          <MdPermIdentity size={iconSize}  color={iconColor} />
           <Text text="About" />
         </Link>
         <Link
@@ -38,7 +39,7 @@ const NavbarMobile = () => {
           smooth={true}
           duration={1100}
         >
-          <MdViewQuilt size={iconSize} />
+          <MdViewQuilt size={iconSize}  color={iconColor} />
           <Text text="Services" />
         </Link>
         <Link
@@ -47,7 +48,7 @@ const NavbarMobile = () => {
           smooth={true}
           duration={1100}
         >
-          <MdWork size={iconSize} />
+          <MdWork size={iconSize}  color={iconColor} />
           <Text text="Portfolio" />
         </Link>
         <Link
@@ -56,7 +57,7 @@ const NavbarMobile = () => {
           smooth={true}
           duration={1100}
         >
-          <MdList size={iconSize} />
+          <MdList size={iconSize}  color={iconColor}/>
           <Text text="Skills" />
         </Link>
       </nav>
