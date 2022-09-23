@@ -2,7 +2,7 @@ footer {
   color: white;
   width: 100%;
   background: var(--background_color_principal);
-  height: 250px;
+  height: 120px;
   display: flex;
   padding: 40px 5%;
   justify-content: space-between;

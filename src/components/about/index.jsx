@@ -28,7 +28,7 @@ function About() {
             etc.
           </p>
 
-          <div style={{ marginTop: "30px" }}>
+          <div className="cv-container">
             <a
               className="btn-cv btn-cv-es"
               href={cv_es}

@@ -7,6 +7,13 @@
   align-items: center;
   gap: 40px;
 }
+.cv-container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+}
 
 @media (min-width: 900px) {
   #session-about {
@@ -18,6 +25,9 @@
     flex-direction: column;
     height: auto;
     padding: 40px 10%;
+  }
+  .cv-container {
+    justify-content: center;
   }
 }
 .about-img {
@@ -82,7 +92,7 @@
   color: var(--background_color_principal);
 }
 .btn-cv-en {
-  border: 2px solid var(--background_color_principal);
+  border: 4px solid var(--background_color_principal);
   background: var(--background_color_principal);
   color: white;
 }
