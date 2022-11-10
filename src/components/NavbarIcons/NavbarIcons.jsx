@@ -2,7 +2,7 @@ import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 import "./NavbarIcons.css";
 function NavbarIcons() {
-  const iconSize = 30;
+  const iconSize = 25;
   const iconColor = "#f1f1f1";
 
   return (

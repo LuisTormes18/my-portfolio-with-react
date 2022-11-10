@@ -16,10 +16,10 @@ function App() {
 
         <About />
 
-        <Services />
-
         <Projects />
 
+        <Services />
+        
         <Skills />
 
         <Footer />

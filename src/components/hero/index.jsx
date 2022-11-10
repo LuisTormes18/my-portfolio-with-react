@@ -15,7 +15,7 @@ function Hero() {
           <h1 translate="no">
             Luis<span>Tormes</span>
           </h1>
-          <p translate="no">Frontend Developer</p>
+          <p className="sub-text" translate="no">Frontend Developer</p>
           <NavbarIcons />
         </div>
       </div>
