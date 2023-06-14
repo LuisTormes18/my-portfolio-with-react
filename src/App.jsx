@@ -1,10 +1,10 @@
-import Hero from "./components/hero/";
+import NavbarMobile from "./components/NavbarMobile/";
 import About from "./components/about/";
+import Footer from "./components/footer/";
+import Hero from "./components/hero/";
 import Projects from "./components/projects/";
 import Services from "./components/services/";
 import Skills from "./components/skills/";
-import Footer from "./components/footer/";
-import NavbarMobile from "./components/NavbarMobile/";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Projects />
 
         <Services />
-        
+
         <Skills />
 
         <Footer />
